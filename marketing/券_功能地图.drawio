@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T13:23:05.851Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="oHeZdVR5wCGHlEzRtbD1" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T13:27:43.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uVs7XETE5VAXk9HWsNs1" version="21.3.8" type="github">
   <diagram name="第 1 页" id="sAMFM_kAIzJIXbysXmXj">
     <mxGraphModel dx="1434" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,6 +138,18 @@
         </mxCell>
         <mxCell id="V7zckTCGArjimNkhpKVx-44" value="还款核销" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7zckTCGArjimNkhpKVx-50" value="用户券" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7zckTCGArjimNkhpKVx-51" value="查询用户券" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7zckTCGArjimNkhpKVx-52" value="查询可用券（满减券）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V7zckTCGArjimNkhpKVx-53" value="通过订单查询优惠券" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
