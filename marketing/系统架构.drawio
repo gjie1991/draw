@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T10:25:38.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hcR8pong6FDZ5cY9_Oe3" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T10:27:27.380Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6oJAcVqVpN-gpQS_YNNQ" version="21.3.8" type="github">
   <diagram name="第 1 页" id="jMfAu-QE-5I-FUhLeWBo">
     <mxGraphModel dx="1050" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,20 +10,38 @@
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-2" value="商城" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="500" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PQ8wlHGpd4nPLxzC1of1-3" value="优惠券批次" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-3" value="优惠券批次" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="209" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PQ8wlHGpd4nPLxzC1of1-4" value="优惠券状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-4" value="优惠券状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="353" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-5" value="优惠券库存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="499" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-6" value="同步发券" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="209" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-7" value="异步发券" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="353" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-10" value="减息券" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="209" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-11" value="免息券" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="354" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PQ8wlHGpd4nPLxzC1of1-5" value="优惠券库存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-12" value="折扣券" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="500" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PQ8wlHGpd4nPLxzC1of1-6" value="同步发券" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-13" value="满减券" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="650" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PQ8wlHGpd4nPLxzC1of1-7" value="异步发券" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-14" value="小贷用券" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="209" y="524.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-15" value="商城用券" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="354" y="525" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
