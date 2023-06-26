@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T10:33:32.846Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Qe8Vazq2xyQMq9VNx2ME" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T10:35:08.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kFPMrdwQTsQPoX_6YXey" version="21.3.8" type="github">
   <diagram name="第 1 页" id="jMfAu-QE-5I-FUhLeWBo">
     <mxGraphModel dx="1050" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="150" y="540" width="660" height="90" as="geometry" />
         </mxCell>
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="50" width="170" height="485" as="geometry" />
+          <mxGeometry x="830" y="50" width="170" height="580" as="geometry" />
         </mxCell>
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="50" width="660" height="100" as="geometry" />
@@ -22,13 +22,13 @@
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-2" value="商城" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="540" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PQ8wlHGpd4nPLxzC1of1-3" value="优惠券批次" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-3" value="优惠券批次管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="209" y="275" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PQ8wlHGpd4nPLxzC1of1-4" value="优惠券状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-4" value="优惠券状态管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="353" y="275" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PQ8wlHGpd4nPLxzC1of1-5" value="优惠券库存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-5" value="优惠券库存管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="499" y="275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-6" value="同步发券" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
@@ -56,24 +56,24 @@
           <mxGeometry x="354" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-18" value="配置中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="855" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="855" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-19" value="消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="855" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="855" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-20" value="调用链" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="855" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="855" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-21" value="监控告警" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="855" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="855" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-22" value="日志" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="855" y="445" width="120" height="60" as="geometry" />
+          <mxGeometry x="855" y="485" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PQ8wlHGpd4nPLxzC1of1-24" value="redis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-24" value="redis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="260" y="555" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PQ8wlHGpd4nPLxzC1of1-27" value="mysql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+        <mxCell id="PQ8wlHGpd4nPLxzC1of1-27" value="mysql" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="540" y="555" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PQ8wlHGpd4nPLxzC1of1-28" value="营销卡券工厂" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
