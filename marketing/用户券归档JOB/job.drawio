@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T05:45:13.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.2" etag="DYX60S1Ib7AHy3ipWkOe" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T06:02:14.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IKeluT6BEHd0yrWbuxmr" version="21.5.2" type="github">
   <diagram name="第 1 页" id="BgB41KbXPWBUYuILRypq">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="320" width="800" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fTWWRAs0TYhyk4xOGI72-1" target="fTWWRAs0TYhyk4xOGI72-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-1" value="调度任务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-5" value="cron:&lt;br&gt;* * 0,1,2,3,4,5,6,7,23 * * ?&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fTWWRAs0TYhyk4xOGI72-6" target="fTWWRAs0TYhyk4xOGI72-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-6" value="marketing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fTWWRAs0TYhyk4xOGI72-8" target="fTWWRAs0TYhyk4xOGI72-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-8" value="fcp_market_user_ticket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-10" value="fcp_market_user_ticket_rule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-12" value="新增字段 filedDate（归档时间）&lt;br&gt;status = 1100&lt;br style=&quot;border-color: var(--border-color); font-family: Arial, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14px; text-align: start;&quot;&gt;and end_date &amp;lt; date_sub(current_date(),&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: Arial, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14px; text-align: start;&quot;&gt;interval 6 month)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-15" value="user_id =&amp;nbsp;fcp_market_user_ticket.user_id&lt;br&gt;and user_ticket_no = fcp_market_user_ticket.user_ticket_no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="540" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-17" value="批量操作&lt;br&gt;Batch = 1000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="275" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
