@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T06:33:13.476Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="a5tjJNC1xdEfig9sr6vc" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T06:34:18.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="psIzCvgQ8hMHJi0McR09" version="21.5.2" type="github">
   <diagram name="第 1 页" id="BgB41KbXPWBUYuILRypq">
     <mxGraphModel dx="1434" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,8 +50,8 @@
         <mxCell id="fTWWRAs0TYhyk4xOGI72-22" value="fcp_market_user_ticket_rule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1150" y="677.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fTWWRAs0TYhyk4xOGI72-26" value="新增字段 filed_date（归档时间）&lt;br&gt;filed_date = now(),is_deleted = &#39;Y&#39;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="845" y="662.5" width="200" height="40" as="geometry" />
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-26" value="filed_date = now(),is_deleted = &#39;Y&#39;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="845" y="662.5" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fTWWRAs0TYhyk4xOGI72-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fTWWRAs0TYhyk4xOGI72-33" target="fTWWRAs0TYhyk4xOGI72-34">
           <mxGeometry relative="1" as="geometry" />
@@ -94,6 +94,9 @@
         </mxCell>
         <mxCell id="fTWWRAs0TYhyk4xOGI72-49" value="CRON：&lt;br&gt;0 */2 * * * ?" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fTWWRAs0TYhyk4xOGI72-50" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;新增字段 filed_date（归档时间）&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1117.5" y="745" width="185" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
