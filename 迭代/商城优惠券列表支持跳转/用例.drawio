@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T06:36:52.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="fIegjUMn0qBtZttymVtc" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T06:37:22.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="EIfz-v3c9k7bPXtY0CK7" version="21.6.6" type="github">
   <diagram name="第 1 页" id="5_qqkdlO3jKT0sV0IZk1">
     <mxGraphModel dx="1050" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QKqTkWfWDaokWkDolcL-1" value="商城" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="240" width="30" height="60" as="geometry" />
+          <mxGeometry x="170" y="230" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4QKqTkWfWDaokWkDolcL-2" value="查询优惠券列表" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="150" width="140" height="70" as="geometry" />
@@ -19,7 +19,7 @@
         <mxCell id="4QKqTkWfWDaokWkDolcL-5" value="查询商品推荐" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="300" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4QKqTkWfWDaokWkDolcL-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4QKqTkWfWDaokWkDolcL-7" target="4QKqTkWfWDaokWkDolcL-10" edge="1">
+        <mxCell id="4QKqTkWfWDaokWkDolcL-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4QKqTkWfWDaokWkDolcL-7" target="4QKqTkWfWDaokWkDolcL-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4QKqTkWfWDaokWkDolcL-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4QKqTkWfWDaokWkDolcL-7" target="4QKqTkWfWDaokWkDolcL-12" edge="1">
